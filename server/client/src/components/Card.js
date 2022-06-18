@@ -18,8 +18,8 @@ function Card(props) {
   const{note, updateNote}= props;
 
   return (
-    <div className='m-3'>
-      <div className="card text-dark bg-light mb-3" style={{width: '21rem'}}>
+    <div className='m-1'>
+      <div className="card text-dark bg-light mb-3">
         <div className="card-header">
         <strong>{note.title}</strong>
         <div className='float-end'>

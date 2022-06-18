@@ -78,7 +78,7 @@ function Notes() {
       </div> 
       <div className="my-5 border p-3 p-md-5 rounded">
         <h3>Your Notes</h3>
-        <div className='d-flex flex-row flex-wrap mx-auto'>
+        <div className='d-flex flex-row flex-wrap justify-content-lg-start justify-content-center'>
           {notes.length===0 && <div><br/>Empty </div> }
           {notes.map((elem, index)=>{
             return <Card note={elem} key={index} updateNote={updateNote}/>

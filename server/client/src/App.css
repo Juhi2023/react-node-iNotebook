@@ -1,3 +1,13 @@
 i{
     cursor: pointer;
 }
+
+.card{
+    width: 21rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .card{
+        width: 17rem;
+    }
+}
